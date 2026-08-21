@@ -9,17 +9,6 @@
     <title>Bal Bahadur Tamang | Sonam Tamang — Content Creator, Photographer & Photo Editor</title>
     <meta name="description" content="Personal portfolio of Bal Bahadur Tamang, professionally known as Sonam Tamang, showcasing his journey in photography, photo editing, content creation, studio work and technology." />
     <meta name="author" content="Bal Bahadur Tamang" />
-<!DOCTYPE html>
-<html lang="en" data-theme="dark">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#0b0d10" />
-    <meta name="color-scheme" content="dark light" />
-
-    <title>Bal Bahadur Tamang | Sonam Tamang — Content Creator, Photographer & Photo Editor</title>
-    <meta name="description" content="Personal portfolio of Bal Bahadur Tamang, professionally known as Sonam Tamang, showcasing his journey in photography, photo editing, content creation, studio work and technology." />
-    <meta name="author" content="Bal Bahadur Tamang" />
     <meta name="robots" content="index, follow" />
 
     <link rel="canonical" href="https://example.com/" />
@@ -186,7 +175,18 @@
                     </div>
                 </div>
             </div>
+
+            <!-- NEW: Scroll indicator -->
+            <div class="scroll-indicator" aria-hidden="true" data-reveal="fade-in" data-reveal-delay="2">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+                <span class="scroll-text" data-i18n="hero.scroll">Scroll to explore</span>
+            </div>
         </section>
+
+        <!-- NEW: Premium Section Divider -->
+        <div class="section-divider" aria-hidden="true"><span></span></div>
 
         <!-- ABOUT -->
         <section id="about" class="section">
@@ -240,6 +240,8 @@
                 </div>
             </div>
         </section>
+
+        <div class="section-divider" aria-hidden="true"><span></span></div>
 
         <!-- WHAT I DO -->
         <section id="whatido" class="section section-alt">
@@ -304,6 +306,8 @@
             </div>
         </section>
 
+        <div class="section-divider" aria-hidden="true"><span></span></div>
+
         <!-- WORK AREAS -->
         <section id="work" class="section">
             <div class="container">
@@ -326,6 +330,8 @@
                 <div id="workGrid" class="work-grid" aria-live="polite"></div>
             </div>
         </section>
+
+        <div class="section-divider" aria-hidden="true"><span></span></div>
 
         <!-- EXPERIENCE -->
         <section id="experience" class="section section-alt">
@@ -362,6 +368,8 @@
             </div>
         </section>
 
+        <div class="section-divider" aria-hidden="true"><span></span></div>
+
         <!-- CONTENT CREATION -->
         <section id="content" class="section">
             <div class="container">
@@ -393,6 +401,8 @@
                 </div>
             </div>
         </section>
+
+        <div class="section-divider" aria-hidden="true"><span></span></div>
 
         <!-- JOURNEY -->
         <section id="journey" class="section section-alt">
@@ -450,6 +460,8 @@
             </div>
         </section>
 
+        <div class="section-divider" aria-hidden="true"><span></span></div>
+
         <!-- EDUCATION -->
         <section id="education" class="section">
             <div class="container">
@@ -471,6 +483,8 @@
                 </article>
             </div>
         </section>
+
+        <div class="section-divider" aria-hidden="true"><span></span></div>
 
         <!-- INTERESTS -->
         <section id="interests" class="section section-alt">
@@ -510,6 +524,8 @@
             </div>
         </section>
 
+        <div class="section-divider" aria-hidden="true"><span></span></div>
+
         <!-- ACHIEVEMENTS -->
         <section id="achievements" class="section">
             <div class="container">
@@ -538,18 +554,137 @@
             </div>
         </section>
 
-        <!-- PHILOSOPHY -->
-        <section class="section section-alt">
+        <div class="section-divider" aria-hidden="true"><span></span></div>
+
+        <!-- PHILOSOPHY - NEW SECTION -->
+        <section id="philosophy" class="section section-alt philosophy-section">
             <div class="container">
-                <blockquote class="panel quote-card" data-reveal="clip">
-                    <p data-i18n="quote.text">
-                        "I don't believe I need to be perfect at everything. I prefer to learn through practical experience, try new things, create, improve and keep moving forward."
+                <blockquote class="panel quote-card philosophy-quote-card" data-reveal="clip">
+                    <span class="quote-mark" aria-hidden="true">"</span>
+                    <p class="philosophy-text" data-i18n="philosophy.quote">
+                        I'm not trying to be perfect. I'm focused on learning, creating, and getting better.
                     </p>
-                    <strong class="quote-motto" data-i18n="quote.motto">Learn. Create. Improve.</strong>
-                    <cite data-i18n="quote.author">— Bal Bahadur Tamang, professionally known as Sonam Tamang</cite>
+                    <footer class="philosophy-footer">
+                        <span class="philosophy-divider" aria-hidden="true"></span>
+                        <cite class="philosophy-author" data-i18n="philosophy.author">— Bal Bahadur Tamang</cite>
+                    </footer>
                 </blockquote>
             </div>
         </section>
+
+        <div class="section-divider" aria-hidden="true"><span></span></div>
+
+        <!-- CURRENTLY LEARNING - NEW SECTION -->
+        <section id="learning" class="section">
+            <div class="container">
+                <div class="section-head" data-reveal="fade-up">
+                    <p class="section-kicker" data-i18n="learning.kicker">Currently Learning</p>
+                    <h2 class="section-title" data-i18n="learning.title">What I'm developing right now</h2>
+                    <p class="section-lead" data-i18n="learning.lead">
+                        A focused set of skills and areas I'm actively practicing and improving.
+                    </p>
+                </div>
+
+                <div class="learning-grid" data-reveal="stagger">
+                    <article class="learning-card" data-tilt data-tilt-intensity="0.3">
+                        <span class="learning-pulse" aria-hidden="true"></span>
+                        <span class="learning-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                        </span>
+                        <h3 data-i18n="learning.tech.title">Technology</h3>
+                        <p data-i18n="learning.tech.desc">Exploring digital tools, platforms and technical knowledge.</p>
+                    </article>
+
+                    <article class="learning-card" data-tilt data-tilt-intensity="0.3">
+                        <span class="learning-pulse" aria-hidden="true"></span>
+                        <span class="learning-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.75 11.75 9.75 8.48 9.75 15.02"/></svg>
+                        </span>
+                        <h3 data-i18n="learning.content.title">Content Creation</h3>
+                        <p data-i18n="learning.content.desc">Improving storytelling, presentation and digital content skills.</p>
+                    </article>
+
+                    <article class="learning-card" data-tilt data-tilt-intensity="0.3">
+                        <span class="learning-pulse" aria-hidden="true"></span>
+                        <span class="learning-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/></svg>
+                        </span>
+                        <h3 data-i18n="learning.editing.title">Photo Editing</h3>
+                        <p data-i18n="learning.editing.desc">Practicing retouching, color grading and image refinement.</p>
+                    </article>
+
+                    <article class="learning-card" data-tilt data-tilt-intensity="0.3">
+                        <span class="learning-pulse" aria-hidden="true"></span>
+                        <span class="learning-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                        </span>
+                        <h3 data-i18n="learning.skills.title">Technical Skills</h3>
+                        <p data-i18n="learning.skills.desc">Developing practical technician-related abilities.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider" aria-hidden="true"><span></span></div>
+
+        <!-- DIGITAL IDENTITY CARD - NEW SECTION -->
+        <section id="identity" class="section section-alt">
+            <div class="container">
+                <div class="section-head" data-reveal="fade-up">
+                    <p class="section-kicker" data-i18n="identity.kicker">Digital Identity</p>
+                    <h2 class="section-title" data-i18n="identity.title">Who I am</h2>
+                    <p class="section-lead" data-i18n="identity.lead">A compact look at my creative identity.</p>
+                </div>
+
+                <div class="identity-card-wrap" data-reveal="fade-up">
+                    <article class="identity-card" data-tilt data-tilt-intensity="0.4">
+                        <div class="identity-front">
+                            <div class="identity-top">
+                                <div class="identity-avatar">
+                                    <img src="images/profile.jpg" alt="Sonam Tamang" id="identityPhoto" class="identity-photo" />
+                                </div>
+                                <div class="identity-mark" aria-hidden="true">BT</div>
+                            </div>
+
+                            <div class="identity-body">
+                                <p class="identity-label" data-i18n="identity.label">Digital Identity Card</p>
+                                <h3 class="identity-fullname" data-i18n="identity.fullName">Bal Bahadur Tamang</h3>
+                                <p class="identity-alias">
+                                    <span data-i18n="identity.known">Professionally known as</span>
+                                    <strong data-i18n="identity.proName">Sonam Tamang</strong>
+                                </p>
+
+                                <ul class="identity-roles">
+                                    <li data-i18n="identity.role1">Content Creator</li>
+                                    <li data-i18n="identity.role2">Photographer</li>
+                                    <li data-i18n="identity.role3">Photo Editor</li>
+                                    <li data-i18n="identity.role4">Technology Enthusiast</li>
+                                </ul>
+
+                                <p class="identity-location">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                    <span data-i18n="identity.country">Nepal</span>
+                                </p>
+                            </div>
+
+                            <div class="identity-footer">
+                                <a class="identity-social" href="https://www.facebook.com/share/1L8LzjfzLH/" target="_blank" rel="noopener" aria-label="Facebook">
+                                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.51 1.49-3.9 3.78-3.9 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.89h-2.33v6.99A10 10 0 0 0 22 12z"/></svg>
+                                </a>
+                                <a class="identity-social" href="https://www.instagram.com/sonamtmz02/" target="_blank" rel="noopener" aria-label="Instagram">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                                </a>
+                                <a class="identity-social" href="https://wa.me/9779748267824" target="_blank" rel="noopener" aria-label="WhatsApp">
+                                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.35.2 1.86.12.57-.08 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35zM12 2a10 10 0 0 0-8.5 15.25L2 22l4.9-1.43A10 10 0 1 0 12 2z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider" aria-hidden="true"><span></span></div>
 
         <!-- CURRENTLY -->
         <section class="section">
@@ -572,6 +707,8 @@
             </div>
         </section>
 
+        <div class="section-divider" aria-hidden="true"><span></span></div>
+
         <!-- FUTURE -->
         <section class="section section-alt">
             <div class="container">
@@ -588,6 +725,8 @@
                 </div>
             </div>
         </section>
+
+        <div class="section-divider" aria-hidden="true"><span></span></div>
 
         <!-- CONTACT -->
         <section id="contact" class="section">
@@ -694,5 +833,12 @@
             <p>© <span id="year">2026</span> <span data-i18n="footer.copy">Bal Bahadur Tamang. All Rights Reserved.</span></p>
         </div>
     </footer>
+
+    <!-- FLOATING WHATSAPP CTA -->
+    <a class="floating-whatsapp" href="https://wa.me/9779748267824" target="_blank" rel="noopener" aria-label="Chat on WhatsApp" data-cursor="hover">
+        <span class="floating-whatsapp-pulse" aria-hidden="true"></span>
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="26" height="26"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.35.2 1.86.12.57-.08 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35zM12 2a10 10 0 0 0-8.5 15.25L2 22l4.9-1.43A10 10 0 1 0 12 2z"/></svg>
+        <span class="floating-whatsapp-label" data-i18n="whatsapp.chat">Chat with me</span>
+    </a>
 </body>
 </html>
