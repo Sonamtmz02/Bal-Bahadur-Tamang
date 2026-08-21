@@ -1,9 +1,6 @@
 (function () {
     "use strict";
 
-    /* =========================================================
-       TRANSLATIONS (existing + new keys)
-       ========================================================= */
     const translations = {
         en: {
             "meta.title": "Bal Bahadur Tamang | Sonam Tamang — Content Creator, Photographer & Photo Editor",
@@ -20,6 +17,8 @@
             "a11y.socialLinks": "Social links",
 
             "cursor.view": "View",
+
+            "hero.scroll": "Scroll to explore",
 
             "brand.name": "Bal Bahadur Tamang",
             "brand.tagline": "Professionally known as Sonam Tamang",
@@ -171,6 +170,36 @@
             "ach.three.title": "Continuous Learning",
             "ach.three.desc": "Continuing education while working and developing creative and digital skills.",
 
+            "philosophy.quote": "I'm not trying to be perfect. I'm focused on learning, creating, and getting better.",
+            "philosophy.author": "— Bal Bahadur Tamang",
+
+            "learning.kicker": "Currently Learning",
+            "learning.title": "What I'm developing right now",
+            "learning.lead": "A focused set of skills and areas I'm actively practicing and improving.",
+            "learning.tech.title": "Technology",
+            "learning.tech.desc": "Exploring digital tools, platforms and technical knowledge.",
+            "learning.content.title": "Content Creation",
+            "learning.content.desc": "Improving storytelling, presentation and digital content skills.",
+            "learning.editing.title": "Photo Editing",
+            "learning.editing.desc": "Practicing retouching, color grading and image refinement.",
+            "learning.skills.title": "Technical Skills",
+            "learning.skills.desc": "Developing practical technician-related abilities.",
+
+            "identity.kicker": "Digital Identity",
+            "identity.title": "Who I am",
+            "identity.lead": "A compact look at my creative identity.",
+            "identity.label": "Digital Identity Card",
+            "identity.fullName": "Bal Bahadur Tamang",
+            "identity.known": "Professionally known as",
+            "identity.proName": "Sonam Tamang",
+            "identity.role1": "Content Creator",
+            "identity.role2": "Photographer",
+            "identity.role3": "Photo Editor",
+            "identity.role4": "Technology Enthusiast",
+            "identity.country": "Nepal",
+
+            "whatsapp.chat": "Chat with me",
+
             "quote.text": ""I don't believe I need to be perfect at everything. I prefer to learn through practical experience, try new things, create, improve and keep moving forward."",
             "quote.motto": "Learn. Create. Improve.",
             "quote.author": "— Bal Bahadur Tamang, professionally known as Sonam Tamang",
@@ -226,6 +255,8 @@
             "a11y.socialLinks": "सामाजिक लिंकहरू",
 
             "cursor.view": "हेर्नुहोस्",
+
+            "hero.scroll": "अन्वेषण गर्न scroll गर्नुहोस्",
 
             "brand.name": "बलबहादुर तामाङ",
             "brand.tagline": "पेशागत रूपमा सोनम तामाङ",
@@ -377,6 +408,36 @@
             "ach.three.title": "निरन्तर सिकाइ",
             "ach.three.desc": "काम गर्दै रचनात्मक र डिजिटल सीप विकास गर्दै शिक्षा जारी राख्नु।",
 
+            "philosophy.quote": "म पूर्ण हुन खोजिरहेको छैन। म सिक्ने, सिर्जना गर्ने र अझ राम्रो हुने कुरामा केन्द्रित छु।",
+            "philosophy.author": "— बलबहादुर तामाङ",
+
+            "learning.kicker": "हाल सिक्दै",
+            "learning.title": "म अहिले के विकास गर्दै छु",
+            "learning.lead": "मैले सक्रिय रूपमा अभ्यास र सुधार गरिरहेका सीप र क्षेत्रहरूको सेट।",
+            "learning.tech.title": "प्रविधि",
+            "learning.tech.desc": "डिजिटल उपकरण, प्लेटफर्म र प्राविधिक ज्ञान अन्वेषण गर्दै।",
+            "learning.content.title": "कन्टेन्ट क्रिएसन",
+            "learning.content.desc": "कथा भन्ने, प्रस्तुति र डिजिटल कन्टेन्ट सीप सुधार गर्दै।",
+            "learning.editing.title": "फोटो एडिटिङ",
+            "learning.editing.desc": "रिटचिङ, कलर ग्रेडिङ र छवि परिष्करण अभ्यास गर्दै।",
+            "learning.skills.title": "प्राविधिक सीपहरू",
+            "learning.skills.desc": "व्यावहारिक टेक्निसियन सम्बन्धित क्षमता विकास गर्दै।",
+
+            "identity.kicker": "डिजिटल पहिचान",
+            "identity.title": "म को हुँ",
+            "identity.lead": "मेरो रचनात्मक पहिचानको संक्षिप्त अवलोकन।",
+            "identity.label": "डिजिटल पहिचान कार्ड",
+            "identity.fullName": "बलबहादुर तामाङ",
+            "identity.known": "पेशागत रूपमा",
+            "identity.proName": "सोनम तामाङ",
+            "identity.role1": "कन्टेन्ट क्रिएटर",
+            "identity.role2": "फोटोग्राफर",
+            "identity.role3": "फोटो एडिटर",
+            "identity.role4": "प्रविधि उत्साही",
+            "identity.country": "नेपाल",
+
+            "whatsapp.chat": "कुराकानी गर्नुहोस्",
+
             "quote.text": ""मलाई सबै कुरामा पूर्ण हुनुपर्छ भन्ने लाग्दैन। म व्यावहारिक अनुभवबाट सिक्न, नयाँ कुरा प्रयास गर्न, सिर्जना गर्न, सुधार गर्न र अगाडि बढ्न रुचाउँछु।"",
             "quote.motto": "सिक्नुहोस्। सिर्जना गर्नुहोस्। सुधार गर्नुहोस्।",
             "quote.author": "— बलबहादुर तामाङ, पेशागत रूपमा सोनम तामाङ",
@@ -422,69 +483,43 @@
         {
             category: "photography",
             title: { en: "Photography", ne: "फोटोग्राफी" },
-            description: {
-                en: "Practical photography experience through real studio work and continuous practice.",
-                ne: "वास्तविक स्टुडियो काम र निरन्तर अभ्यासमार्फत व्यावहारिक फोटोग्राफी अनुभव।"
-            }
+            description: { en: "Practical photography experience through real studio work and continuous practice.", ne: "वास्तविक स्टुडियो काम र निरन्तर अभ्यासमार्फत व्यावहारिक फोटोग्राफी अनुभव।" }
         },
         {
             category: "editing",
             title: { en: "Photo Editing", ne: "फोटो एडिटिङ" },
-            description: {
-                en: "Photo editing, retouching and image processing while improving step by step.",
-                ne: "चरणबद्ध रूपमा सुधार गर्दै फोटो एडिटिङ, रिटचिङ र छवि प्रशोधन।"
-            }
+            description: { en: "Photo editing, retouching and image processing while improving step by step.", ne: "चरणबद्ध रूपमा सुधार गर्दै फोटो एडिटिङ, रिटचिङ र छवि प्रशोधन।" }
         },
         {
             category: "design",
             title: { en: "Thumbnails", ne: "थम्बनेल" },
-            description: {
-                en: "Creative thumbnail thinking connected with YouTube content and visual presentation.",
-                ne: "युट्युब कन्टेन्ट र भिजुअल प्रस्तुतीकरणसँग जोडिएको रचनात्मक थम्बनेल सोच।"
-            }
+            description: { en: "Creative thumbnail thinking connected with YouTube content and visual presentation.", ne: "युट्युब कन्टेन्ट र भिजुअल प्रस्तुतीकरणसँग जोडिएको रचनात्मक थम्बनेल सोच।" }
         },
         {
             category: "design",
             title: { en: "Posters", ne: "पोस्टर" },
-            description: {
-                en: "Poster-style visual composition connected with creative design and content presentation.",
-                ne: "रचनात्मक डिजाइन र कन्टेन्ट प्रस्तुतीकरणसँग जोडिएको पोस्टर शैलीको भिजुअल संरचना।"
-            }
+            description: { en: "Poster-style visual composition connected with creative design and content presentation.", ne: "रचनात्मक डिजाइन र कन्टेन्ट प्रस्तुतीकरणसँग जोडिएको पोस्टर शैलीको भिजुअल संरचना।" }
         },
         {
             category: "design",
             title: { en: "Creative Designs", ne: "रचनात्मक डिजाइन" },
-            description: {
-                en: "Clean and practical creative design ideas connected with digital content.",
-                ne: "डिजिटल कन्टेन्टसँग जोडिएको सफा र व्यावहारिक रचनात्मक डिजाइन सोच।"
-            }
+            description: { en: "Clean and practical creative design ideas connected with digital content.", ne: "डिजिटल कन्टेन्टसँग जोडिएको सफा र व्यावहारिक रचनात्मक डिजाइन सोच।" }
         },
         {
             category: "content",
             title: { en: "Digital Content", ne: "डिजिटल कन्टेन्ट" },
-            description: {
-                en: "Creating, publishing and improving digital content, especially for YouTube.",
-                ne: "विशेष गरी युट्युबका लागि डिजिटल कन्टेन्ट सिर्जना, प्रकाशन र सुधार।"
-            }
+            description: { en: "Creating, publishing and improving digital content, especially for YouTube.", ne: "विशेष गरी युट्युबका लागि डिजिटल कन्टेन्ट सिर्जना, प्रकाशन र सुधार।" }
         }
     ];
 
-    /* =========================================================
-       STATE & UTILITIES
-       ========================================================= */
     const state = {
         lang: "en",
         filter: "all",
         menuOpen: false,
         isTouch: false,
         reducedMotion: false,
-        mouseX: 0,
-        mouseY: 0,
-        cursorX: 0,
-        cursorY: 0,
-        ringX: 0,
-        ringY: 0,
-        cursorRafId: null
+        mouseX: 0, mouseY: 0,
+        ringX: 0, ringY: 0
     };
 
     const dom = {};
@@ -500,46 +535,34 @@
         dom.workGrid = document.getElementById("workGrid");
         dom.year = document.getElementById("year");
         dom.profilePhoto = document.getElementById("profilePhoto");
+        dom.identityPhoto = document.getElementById("identityPhoto");
     }
 
     function storageGet(key) {
         try { return localStorage.getItem(key); } catch (e) { return null; }
     }
-
     function storageSet(key, value) {
-        try { localStorage.setItem(key, value); } catch (e) { /* noop */ }
+        try { localStorage.setItem(key, value); } catch (e) {}
     }
-
     function t(key) {
         const lang = translations[state.lang] ? state.lang : "en";
         return translations[lang][key] || translations.en[key] || key;
     }
-
     function throttle(fn, wait) {
         let last = 0;
         return function (...args) {
             const now = Date.now();
-            if (now - last >= wait) {
-                last = now;
-                fn.apply(this, args);
-            }
+            if (now - last >= wait) { last = now; fn.apply(this, args); }
         };
     }
 
-    /* =========================================================
-       CINEMATIC INTRO
-       ========================================================= */
+    /* ========== INTRO ========== */
     function initIntro() {
         if (!dom.intro) return;
-
         const hasVisited = storageGet("bt-visited") === "true";
-        if (hasVisited) {
-            document.body.classList.add("returning-visitor");
-        }
+        if (hasVisited) document.body.classList.add("returning-visitor");
         document.body.classList.add("intro-active");
-
         const duration = hasVisited ? 600 : 1800;
-
         setTimeout(() => {
             document.body.classList.remove("intro-active");
             document.body.classList.add("intro-done");
@@ -547,38 +570,29 @@
         }, duration);
     }
 
-    /* =========================================================
-       THEME (preserved + enhanced)
-       ========================================================= */
+    /* ========== THEME ========== */
     function applyTheme(theme) {
         const safeTheme = theme === "light" ? "light" : "dark";
         document.documentElement.setAttribute("data-theme", safeTheme);
         const metaTheme = document.querySelector('meta[name="theme-color"]');
-        if (metaTheme) {
-            metaTheme.setAttribute("content", safeTheme === "dark" ? "#0b0d10" : "#f8f7f4");
-        }
+        if (metaTheme) metaTheme.setAttribute("content", safeTheme === "dark" ? "#0b0d10" : "#f8f7f4");
         storageSet("bt-theme", safeTheme);
     }
-
     function toggleTheme() {
         const current = document.documentElement.getAttribute("data-theme") || "dark";
         applyTheme(current === "dark" ? "light" : "dark");
     }
-
     function initTheme() {
         const savedTheme = storageGet("bt-theme");
         applyTheme(savedTheme === "light" ? "light" : "dark");
     }
-
     function initThemeControls() {
         document.querySelectorAll(".js-theme-toggle").forEach((btn) => {
             btn.addEventListener("click", toggleTheme);
         });
     }
 
-    /* =========================================================
-       LANGUAGE (preserved)
-       ========================================================= */
+    /* ========== LANGUAGE ========== */
     function applyLanguage(lang) {
         state.lang = translations[lang] ? lang : "en";
         document.documentElement.lang = state.lang;
@@ -590,53 +604,40 @@
             const value = t(el.getAttribute("data-i18n"));
             if (value) el.textContent = value;
         });
-
         document.querySelectorAll("[data-i18n-alt]").forEach((el) => {
             const value = t(el.getAttribute("data-i18n-alt"));
             if (value) el.setAttribute("alt", value);
         });
-
         document.querySelectorAll("[data-i18n-aria]").forEach((el) => {
             const value = t(el.getAttribute("data-i18n-aria"));
             if (value) el.setAttribute("aria-label", value);
         });
-
         document.querySelectorAll(".lang-btn").forEach((btn) => {
             const isActive = btn.dataset.lang === state.lang;
             btn.classList.toggle("active", isActive);
             btn.setAttribute("aria-pressed", String(isActive));
         });
-
         if (dom.menuToggle) {
             dom.menuToggle.setAttribute("aria-label", t(state.menuOpen ? "a11y.closeMenu" : "a11y.openMenu"));
         }
-
         storageSet("bt-language", state.lang);
         renderWork();
     }
-
     function initLanguage() {
         const saved = storageGet("bt-language");
         applyLanguage(translations[saved] ? saved : "en");
     }
-
     function initLanguageControls() {
         document.querySelectorAll(".lang-btn").forEach((btn) => {
             btn.addEventListener("click", () => applyLanguage(btn.dataset.lang));
         });
     }
 
-    /* =========================================================
-       WORK RENDER (preserved)
-       ========================================================= */
+    /* ========== WORK RENDER ========== */
     function renderWork() {
         if (!dom.workGrid) return;
         dom.workGrid.textContent = "";
-
-        const items = state.filter === "all"
-            ? workItems
-            : workItems.filter((i) => i.category === state.filter);
-
+        const items = state.filter === "all" ? workItems : workItems.filter((i) => i.category === state.filter);
         if (!items.length) {
             const empty = document.createElement("p");
             empty.className = "work-empty";
@@ -644,7 +645,6 @@
             dom.workGrid.appendChild(empty);
             return;
         }
-
         items.forEach((item, index) => {
             const article = document.createElement("article");
             article.className = "work-card";
@@ -653,35 +653,28 @@
 
             const top = document.createElement("div");
             top.className = "work-top";
-
             const cat = document.createElement("span");
             cat.className = "work-category";
             cat.textContent = t(`filter.${item.category}`);
-
             const num = document.createElement("span");
             num.className = "work-number";
             num.textContent = String(index + 1).padStart(2, "0");
-
             top.appendChild(cat);
             top.appendChild(num);
 
             const title = document.createElement("h3");
             title.textContent = item.title[state.lang];
-
             const desc = document.createElement("p");
             desc.textContent = item.description[state.lang];
 
             article.appendChild(top);
             article.appendChild(title);
             article.appendChild(desc);
-
             dom.workGrid.appendChild(article);
         });
-
         initTiltCards();
         initCursorTargets();
     }
-
     function initFilters() {
         document.querySelectorAll(".filter-btn").forEach((btn) => {
             btn.addEventListener("click", () => {
@@ -696,93 +689,62 @@
         });
     }
 
-    /* =========================================================
-       MOBILE MENU (preserved)
-       ========================================================= */
+    /* ========== MENU ========== */
     function initMenu() {
         if (!dom.menuToggle || !dom.nav) return;
-
         function setMenu(open) {
             state.menuOpen = open;
             dom.nav.classList.toggle("open", open);
             dom.menuToggle.setAttribute("aria-expanded", String(open));
             dom.menuToggle.setAttribute("aria-label", t(open ? "a11y.closeMenu" : "a11y.openMenu"));
         }
-
         dom.menuToggle.addEventListener("click", () => setMenu(!state.menuOpen));
-
-        dom.nav.addEventListener("click", (e) => {
-            if (e.target.closest("a")) setMenu(false);
-        });
-
+        dom.nav.addEventListener("click", (e) => { if (e.target.closest("a")) setMenu(false); });
         document.addEventListener("keydown", (e) => {
-            if (e.key === "Escape" && state.menuOpen) {
-                setMenu(false);
-                dom.menuToggle.focus();
-            }
+            if (e.key === "Escape" && state.menuOpen) { setMenu(false); dom.menuToggle.focus(); }
         });
-
         document.addEventListener("click", (e) => {
-            if (state.menuOpen &&
-                !dom.nav.contains(e.target) &&
-                !dom.menuToggle.contains(e.target)) {
-                setMenu(false);
-            }
+            if (state.menuOpen && !dom.nav.contains(e.target) && !dom.menuToggle.contains(e.target)) setMenu(false);
         });
-
         window.addEventListener("resize", () => {
             if (window.innerWidth > 1120 && state.menuOpen) setMenu(false);
         }, { passive: true });
     }
 
-    /* =========================================================
-       HEADER SCROLL (enhanced with rAF)
-       ========================================================= */
+    /* ========== HEADER SCROLL ========== */
     function initHeader() {
         if (!dom.header) return;
         let ticking = false;
-
         function update() {
             dom.header.classList.toggle("scrolled", window.scrollY > 24);
             ticking = false;
         }
-
         window.addEventListener("scroll", () => {
-            if (!ticking) {
-                requestAnimationFrame(update);
-                ticking = true;
-            }
+            if (!ticking) { requestAnimationFrame(update); ticking = true; }
         }, { passive: true });
         update();
     }
 
-    /* =========================================================
-       SCROLL PROGRESS BAR
-       ========================================================= */
+    /* ========== SCROLL PROGRESS ========== */
     function initScrollProgress() {
         if (!dom.scrollProgress) return;
-
         function update() {
             const scrollTop = window.scrollY;
             const docHeight = document.documentElement.scrollHeight - window.innerHeight;
             const percent = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
             dom.scrollProgress.style.width = percent + "%";
         }
-
         window.addEventListener("scroll", throttle(update, 16), { passive: true });
         update();
     }
 
-    /* =========================================================
-       SCROLL REVEAL (enhanced)
-       ========================================================= */
+    /* ========== SCROLL REVEAL ========== */
     function initReveal() {
         const items = document.querySelectorAll("[data-reveal]");
         if (state.reducedMotion || !("IntersectionObserver" in window)) {
             items.forEach((i) => i.classList.add("visible"));
             return;
         }
-
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
@@ -791,23 +753,16 @@
                 }
             });
         }, { threshold: 0.12, rootMargin: "0px 0px -60px 0px" });
-
         items.forEach((i) => observer.observe(i));
     }
 
-    /* =========================================================
-       ACTIVE NAV (enhanced with aria-current)
-       ========================================================= */
+    /* ========== ACTIVE NAV ========== */
     function initActiveNav() {
         const sections = Array.from(document.querySelectorAll("main section[id]"));
         const links = Array.from(document.querySelectorAll(".main-nav a"));
         if (!sections.length || !links.length) return;
-
         const linkMap = {};
-        links.forEach((l) => {
-            linkMap[l.getAttribute("href").replace("#", "")] = l;
-        });
-
+        links.forEach((l) => { linkMap[l.getAttribute("href").replace("#", "")] = l; });
         function setActive(id) {
             if (!linkMap[id]) return;
             links.forEach((l) => {
@@ -817,118 +772,76 @@
                 else l.removeAttribute("aria-current");
             });
         }
-
-        if (!("IntersectionObserver" in window)) {
-            setActive("home");
-            return;
-        }
-
+        if (!("IntersectionObserver" in window)) { setActive("home"); return; }
         const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) setActive(entry.target.id);
-            });
+            entries.forEach((entry) => { if (entry.isIntersecting) setActive(entry.target.id); });
         }, { rootMargin: "-45% 0px -50% 0px", threshold: 0 });
-
         sections.forEach((s) => observer.observe(s));
         setActive("home");
     }
 
-    /* =========================================================
-       PROFILE IMAGE FALLBACK (preserved)
-       ========================================================= */
-    function initProfileFallback() {
-        if (!dom.profilePhoto) return;
-        let applied = false;
-
-        function setFallback() {
-            if (applied) return;
-            applied = true;
-            const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#171b23"/><stop offset="100%" stop-color="#0b0d10"/></linearGradient></defs><rect width="800" height="1000" fill="url(#g)"/><circle cx="400" cy="430" r="190" fill="#c9a468" opacity="0.16"/><text x="400" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="170" font-weight="700" fill="#c9a468">BT</text></svg>`;
-            dom.profilePhoto.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg);
-        }
-
-        dom.profilePhoto.addEventListener("error", setFallback);
-        if (dom.profilePhoto.complete && dom.profilePhoto.naturalWidth === 0) {
-            setFallback();
-        }
+    /* ========== PROFILE FALLBACK ========== */
+    function applyProfileFallback(img) {
+        if (!img || img.dataset.fallbackApplied === "true") return;
+        img.dataset.fallbackApplied = "true";
+        const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#171b23"/><stop offset="100%" stop-color="#0b0d10"/></linearGradient></defs><rect width="800" height="1000" fill="url(#g)"/><circle cx="400" cy="430" r="190" fill="#c9a468" opacity="0.16"/><text x="400" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="170" font-weight="700" fill="#c9a468">BT</text></svg>`;
+        img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg);
     }
 
-    /* =========================================================
-       YEAR (preserved)
-       ========================================================= */
+    function initProfileFallback() {
+        [dom.profilePhoto, dom.identityPhoto].forEach((img) => {
+            if (!img) return;
+            img.addEventListener("error", () => applyProfileFallback(img));
+            if (img.complete && img.naturalWidth === 0) applyProfileFallback(img);
+        });
+    }
+
+    /* ========== YEAR ========== */
     function initYear() {
         if (dom.year) dom.year.textContent = new Date().getFullYear();
     }
 
-    /* =========================================================
-       CUSTOM CURSOR (desktop only)
-       ========================================================= */
+    /* ========== CURSOR ========== */
     function initCursor() {
         if (state.isTouch || state.reducedMotion) return;
         if (!dom.cursorDot || !dom.cursorRing) return;
-
         document.body.classList.add("cursor-enabled");
 
         function onMove(e) {
             state.mouseX = e.clientX;
             state.mouseY = e.clientY;
         }
-
         function tick() {
-            // Dot follows instantly
-            dom.cursorDot.style.transform =
-                `translate(${state.mouseX}px, ${state.mouseY}px) translate(-50%, -50%)`;
-
-            // Ring follows with lag (lerp)
+            dom.cursorDot.style.transform = `translate(${state.mouseX}px, ${state.mouseY}px) translate(-50%, -50%)`;
             state.ringX += (state.mouseX - state.ringX) * 0.18;
             state.ringY += (state.mouseY - state.ringY) * 0.18;
-            dom.cursorRing.style.transform =
-                `translate(${state.ringX}px, ${state.ringY}px) translate(-50%, -50%)`;
-
-            state.cursorRafId = requestAnimationFrame(tick);
+            dom.cursorRing.style.transform = `translate(${state.ringX}px, ${state.ringY}px) translate(-50%, -50%)`;
+            requestAnimationFrame(tick);
         }
-
         window.addEventListener("mousemove", onMove, { passive: true });
-        state.cursorRafId = requestAnimationFrame(tick);
+        requestAnimationFrame(tick);
 
-        document.addEventListener("mouseleave", () => {
-            document.body.classList.add("cursor-hidden");
-        });
-        document.addEventListener("mouseenter", () => {
-            document.body.classList.remove("cursor-hidden");
-        });
+        document.addEventListener("mouseleave", () => document.body.classList.add("cursor-hidden"));
+        document.addEventListener("mouseenter", () => document.body.classList.remove("cursor-hidden"));
     }
 
     function initCursorTargets() {
         if (state.isTouch || state.reducedMotion) return;
-
-        const targets = document.querySelectorAll(
-            'a, button, [data-cursor="hover"], .work-card, .feature-card, .interest-card'
-        );
-
+        const targets = document.querySelectorAll('a, button, [data-cursor="hover"], .work-card, .feature-card, .interest-card, .learning-card, .identity-card');
         targets.forEach((el) => {
             if (el.dataset.cursorBound) return;
             el.dataset.cursorBound = "true";
-
-            el.addEventListener("mouseenter", () => {
-                document.body.classList.add("cursor-hover");
-            });
-            el.addEventListener("mouseleave", () => {
-                document.body.classList.remove("cursor-hover");
-            });
+            el.addEventListener("mouseenter", () => document.body.classList.add("cursor-hover"));
+            el.addEventListener("mouseleave", () => document.body.classList.remove("cursor-hover"));
         });
     }
 
-    /* =========================================================
-       MAGNETIC BUTTONS (desktop only)
-       ========================================================= */
+    /* ========== MAGNETIC BUTTONS ========== */
     function initMagneticButtons() {
         if (state.isTouch || state.reducedMotion) return;
-
         const buttons = document.querySelectorAll("[data-magnetic]");
         buttons.forEach((btn) => {
             const maxMove = 8;
-
             btn.addEventListener("mousemove", (e) => {
                 const rect = btn.getBoundingClientRect();
                 const cx = rect.left + rect.width / 2;
@@ -936,130 +849,83 @@
                 const dx = (e.clientX - cx) / rect.width;
                 const dy = (e.clientY - cy) / rect.height;
                 btn.style.transform = `translate(${dx * maxMove}px, ${dy * maxMove}px)`;
-
-                // Radial light follows cursor
                 const xPct = ((e.clientX - rect.left) / rect.width) * 100;
                 const yPct = ((e.clientY - rect.top) / rect.height) * 100;
                 btn.style.setProperty("--x", xPct + "%");
                 btn.style.setProperty("--y", yPct + "%");
             });
-
-            btn.addEventListener("mouseleave", () => {
-                btn.style.transform = "";
-            });
+            btn.addEventListener("mouseleave", () => { btn.style.transform = ""; });
         });
     }
 
-    /* =========================================================
-       3D TILT CARDS
-       ========================================================= */
+    /* ========== TILT CARDS ========== */
     function initTiltCards() {
         if (state.isTouch || state.reducedMotion) return;
-
         const cards = document.querySelectorAll("[data-tilt]");
         cards.forEach((card) => {
             if (card.dataset.tiltBound) return;
             card.dataset.tiltBound = "true";
-
             const intensity = parseFloat(card.dataset.tiltIntensity) || 0.5;
             const maxRotate = 6 * intensity;
-
             card.addEventListener("mousemove", (e) => {
                 const rect = card.getBoundingClientRect();
                 const px = (e.clientX - rect.left) / rect.width;
                 const py = (e.clientY - rect.top) / rect.height;
-
                 const rotateY = (px - 0.5) * 2 * maxRotate;
                 const rotateX = -(py - 0.5) * 2 * maxRotate;
-
-                card.style.transform =
-                    `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(0)`;
-
+                card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(0)`;
                 card.style.setProperty("--mx", (px * 100) + "%");
                 card.style.setProperty("--my", (py * 100) + "%");
-
-                // Shine effect for profile card
                 const shine = card.querySelector(".profile-shine");
                 if (shine) {
                     shine.style.setProperty("--shine-x", (px * 100) + "%");
                     shine.style.setProperty("--shine-y", (py * 100) + "%");
                 }
             });
-
-            card.addEventListener("mouseleave", () => {
-                card.style.transform = "";
-            });
+            card.addEventListener("mouseleave", () => { card.style.transform = ""; });
         });
     }
 
-    /* =========================================================
-       PARALLAX HERO
-       ========================================================= */
+    /* ========== PARALLAX ========== */
     function initParallaxHero() {
         if (state.isTouch || state.reducedMotion) return;
-
         const heroVisual = document.querySelector("[data-parallax-target]");
         if (!heroVisual) return;
-
         const orbs = document.querySelectorAll(".ambient-orb");
-        let targetX = 0, targetY = 0;
-        let currentX = 0, currentY = 0;
-        let rafId = null;
-
+        let targetX = 0, targetY = 0, currentX = 0, currentY = 0;
         function animate() {
             currentX += (targetX - currentX) * 0.08;
             currentY += (targetY - currentY) * 0.08;
-
-            // Hero visual moves opposite to cursor (subtle)
-            heroVisual.style.transform =
-                `translate(${currentX * -8}px, ${currentY * -8}px)`;
-
-            // Ambient orbs move slightly with cursor
+            heroVisual.style.transform = `translate(${currentX * -8}px, ${currentY * -8}px)`;
             orbs.forEach((orb, idx) => {
                 const factor = (idx + 1) * 4;
                 orb.style.marginLeft = (currentX * factor) + "px";
                 orb.style.marginTop = (currentY * factor) + "px";
             });
-
-            rafId = requestAnimationFrame(animate);
+            requestAnimationFrame(animate);
         }
-
         window.addEventListener("mousemove", (e) => {
             const cx = window.innerWidth / 2;
             const cy = window.innerHeight / 2;
             targetX = (e.clientX - cx) / cx;
             targetY = (e.clientY - cy) / cy;
         }, { passive: true });
-
-        rafId = requestAnimationFrame(animate);
+        requestAnimationFrame(animate);
     }
 
-    /* =========================================================
-       DETECT TOUCH / REDUCED MOTION
-       ========================================================= */
+    /* ========== CAPABILITIES ========== */
     function detectCapabilities() {
-        state.isTouch = (
-            "ontouchstart" in window ||
-            navigator.maxTouchPoints > 0 ||
-            window.matchMedia("(pointer: coarse)").matches
-        );
-        state.reducedMotion = window.matchMedia &&
-            window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
+        state.isTouch = ("ontouchstart" in window) || navigator.maxTouchPoints > 0 || window.matchMedia("(pointer: coarse)").matches;
+        state.reducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
         if (window.matchMedia) {
-            window.matchMedia("(prefers-reduced-motion: reduce)")
-                .addEventListener("change", (e) => {
-                    state.reducedMotion = e.matches;
-                    if (state.reducedMotion) {
-                        document.body.classList.remove("cursor-enabled", "cursor-hover");
-                    }
-                });
+            window.matchMedia("(prefers-reduced-motion: reduce)").addEventListener("change", (e) => {
+                state.reducedMotion = e.matches;
+                if (state.reducedMotion) document.body.classList.remove("cursor-enabled", "cursor-hover");
+            });
         }
     }
 
-    /* =========================================================
-       BOOT
-       ========================================================= */
+    /* ========== BOOT ========== */
     function init() {
         cacheDom();
         detectCapabilities();
@@ -1078,7 +944,6 @@
         initProfileFallback();
         initYear();
 
-        // Premium interactions (desktop only, respects reduced motion)
         initCursor();
         initCursorTargets();
         initMagneticButtons();
